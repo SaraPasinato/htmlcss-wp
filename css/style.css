@@ -65,10 +65,11 @@ img{
     margin: 50px 0px;
     border-radius: 10px;
     position: relative;
+    /* set overlay on beckground image*/
     box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
 }
 
-
+/* box with text*/
 #box-item{
     
     height:30%;
