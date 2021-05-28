@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Arial' sans-serif;
+    font-family: 'Lexend', sans-serif;
 }
 
 img{
@@ -11,12 +11,46 @@ img{
 }
 /* Utils*/
 .container {
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
+  
   }
 
 .clearfix::after{
     content:'';
     clear:both;
     display: table;
+}
+
+/* Header */
+#main-header{
+    background-color: gainsboro;
+    height: 120px;
+    margin: 10px 0;
+
+}
+
+#main-header img{
+    width:12%;
+}
+/* nav */
+#main-header .main-menu {
+    margin-top:30px;
+}
+/* link setup */
+#main-header .main-menu li {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+
+  #main-header .main-menu li a {
+    color:#909190;
+    text-decoration: none;
+  }
+
+#main-header .main-menu li:last-child {
+  padding-right: 0;
 }
