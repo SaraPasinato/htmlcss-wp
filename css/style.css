@@ -63,7 +63,7 @@ body{
     background-image:url(".././img/banner.jpg");
     background-position:center;
     height: 500px;
-    margin: 50px 0px;
+    margin: 40px 0px;
     border-radius: 10px;
     position: relative;
     /* set overlay on beckground image*/
@@ -98,7 +98,7 @@ body{
 
 #leadership header{
     height: 100px;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 #leadership h1{
