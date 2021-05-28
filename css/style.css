@@ -1,0 +1,22 @@
+/*Default*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial' sans-serif;
+}
+
+img{
+    width:100%;
+}
+/* Utils*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+.clearfix::after{
+    content:'';
+    clear:both;
+    display: table;
+}
