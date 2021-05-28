@@ -54,3 +54,25 @@ img{
 #main-header .main-menu li:last-child {
   padding-right: 0;
 }
+
+/* hero section*/
+#hero{
+    background-image:url(".././img/banner.jpg");
+    background-repeat:cover;
+    background-position:center;
+    height: 360px;
+    margin: 50px 0;
+    border-radius: 10px;
+    position:relative;
+}
+
+#box-item{
+    height:30%;
+    width: 50%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin:20px;
+    color: white;
+}
